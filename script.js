@@ -75,8 +75,6 @@ const forButtonTest8 = document.getElementById("forButtonTest8");
 function HideIt8 () {
     const forTest8 = document.getElementById("forTest8");
     forTest8.setAttribute("href", "style.css");
-    const forTest81 = document.getElementById("forTest81");
-    forTest81.innerHTML = "";
 }
 
 forButtonTest8.onclick = HideIt8;
