@@ -1,0 +1,50 @@
+/* for Grid Layout */
+
+
+
+.grid-container1 {
+    border: solid 2px red;
+    display: grid;
+    grid-template-areas:
+    "header header header header header"
+    "main main main main sidebar"
+    "footer footer footer footer footer";
+}
+
+.header1 {
+    border: solid 2px red;
+    grid-area: header;
+    /* height: 200px; */
+}
+
+.sidebar1 {
+    border: solid 2px red;
+    grid-area: sidebar;
+    /* for flex */
+    display: flex;
+    flex-direction: column
+}
+
+.main1 {
+    border: solid 2px red;
+    grid-area: main;
+}
+
+.footer1 {
+    border: solid 2px red;
+    grid-area: footer;
+    /* height: 200px; */
+}
+
+
+
+
+
+/* for flex layout */
+
+
+
+
+.flex-item1 {
+    border: solid 2px blue;
+}
